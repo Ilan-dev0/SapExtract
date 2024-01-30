@@ -22,7 +22,7 @@ if not type(session) == win32com.client.CDispatch:
 session.findById("wnd[0]").maximize()
 
 # Configura o código da transação
-session.findById("wnd[0]/tbar[0]/okcd").text = "FBL3N"
+session.findById("wnd[0]/tbar[0]/okcd").text = "ZVVTCO005"
 
 # Pressiona o botão OK para abrir a transação
 session.findById("wnd[0]/tbar[0]/btn[0]").press()
